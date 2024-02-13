@@ -1,4 +1,15 @@
 <linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cats.Characters.CardAbilityBase" preserve="all" />
+    <type fullname="Cats.Characters.CharacterConfig" preserve="all" />
+    <type fullname="Cats.Characters.CharactersConfigs" preserve="all" />
+    <type fullname="Cats.Characters.Biography" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.CardConfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.Chatconfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.LevelConfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.SkinConfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Services.Localize.LocalString" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
@@ -10,6 +21,7 @@
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
   </assembly>
