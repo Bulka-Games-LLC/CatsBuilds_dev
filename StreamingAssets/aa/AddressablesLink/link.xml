@@ -5,8 +5,10 @@
     <type fullname="Cats.Characters.CharactersConfigs" preserve="all" />
     <type fullname="Cats.Characters.Biography" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.CardConfig" preserve="nothing" serialized="true" />
-    <type fullname="Cats.Characters.Chatconfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.ChatConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.LevelConfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.MessageConfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.MessageConfig/CharMessage" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.SkinConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Services.Localize.LocalString" preserve="nothing" serialized="true" />
   </assembly>
