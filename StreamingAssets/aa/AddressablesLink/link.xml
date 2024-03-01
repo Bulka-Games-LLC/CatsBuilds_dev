@@ -3,6 +3,7 @@
     <type fullname="Cats.Characters.CardAbilityBase" preserve="all" />
     <type fullname="Cats.Characters.CharacterConfig" preserve="all" />
     <type fullname="Cats.Characters.CharactersConfigs" preserve="all" />
+    <type fullname="Cats.Screens.Main.LocationObject" preserve="all" />
     <type fullname="Cats.Screens.Main.LocationView" preserve="all" />
     <type fullname="Cats.Characters.Biography" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.CardConfig" preserve="nothing" serialized="true" />
