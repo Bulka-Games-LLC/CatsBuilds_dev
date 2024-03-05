@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="TemplateData/style.css">        
         <script type="text/javascript">
  
-              var config = {
+        const config = {
         dataUrl: buildUrl + "/CatsBuilds_dev.data.unityweb",
         frameworkUrl: buildUrl + "/CatsBuilds_dev.framework.js.unityweb",
         codeUrl: buildUrl + "/CatsBuilds_dev.wasm.unityweb",
@@ -19,7 +19,7 @@
         productName: "Cats",
         productVersion: "1.0.27",
         showBanner: unityShowBanner,
-      };
+		};
  
             var gameInstance;
             var canvas;
@@ -51,7 +51,7 @@
                     <div id="LogoA"  class="Logos LogoA"></div>
                     <div id="LogoB"  class="Logos LogoB"></div>
                 </div>
-                <div id="Footer" class="Footer" onclick="gameInstance.SetFullscreen(1)"></div>
+                // <div id="Footer" class="Footer" onclick="gameInstance.SetFullscreen(1)"></div>
             </div>
         </body>
     ]]>
