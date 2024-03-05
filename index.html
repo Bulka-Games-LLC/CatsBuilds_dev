@@ -25,18 +25,21 @@
             var gameInstance;
             var canvas;
              
-            function init() {
-                canvas = document.querySelector("#unity-canvas"); //or getElementById('unity-canvas')
-                gameInstance = createUnityInstance(canvas, config, (progress) => {
+			var script = document.createElement("script");
+			script.src = loaderUrl;
+			
+			script.onload = () => {
+			canvas = document.querySelector("#unity-canvas");
+			createUnityInstance(canvas, config, (progress) => {
                   console.log(progress);
                   }).then((gameInstance) => {
                     console.log("WAS LOADED");
                   }).catch((message) => {
                     alert(message);
                   });
-                }
+			}
  
-            gadgets.util.registerOnLoadHandler(init);
+            gadgets.util.registerOnLoadHandler(script);
         </script>
          
         <body style="min-height: 1080px">
