@@ -1,20 +1,20 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="Cats.Characters.CardAbilityBase" preserve="all" />
     <type fullname="Cats.Characters.CharacterConfig" preserve="all" />
     <type fullname="Cats.Characters.CharactersConfigs" preserve="all" />
     <type fullname="Cats.CommonTools.AnimationWrapper" preserve="all" />
+    <type fullname="Cats.Events.EventsContentHeaderConfig" preserve="all" />
+    <type fullname="Cats.Screens.Board.QuestIconsConfig" preserve="all" />
     <type fullname="Cats.World.LocationObject" preserve="all" />
     <type fullname="Cats.World.LocationView" preserve="all" />
     <type fullname="Cats.World.StageView" preserve="all" />
     <type fullname="Cats.World.WorldCharacter" preserve="all" />
     <type fullname="Cats.Characters.Biography" preserve="nothing" serialized="true" />
-    <type fullname="Cats.Characters.CardConfig" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Characters.CardContentConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.ChatConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.LevelBlockConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.LevelBlockConfig/CharMessage" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.LevelBlockConfig/ChatGroup" preserve="nothing" serialized="true" />
-    <type fullname="Cats.Characters.LevelConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.SkinConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Services.Localize.LocalString" preserve="nothing" serialized="true" />
   </assembly>
@@ -37,6 +37,7 @@
   </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
@@ -51,5 +52,9 @@
     <type fullname="UnityEngine.TextAsset" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
 </linker>
