@@ -18,6 +18,8 @@
     <type fullname="Cats.Characters.LevelBlockConfig/ChatGroup" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.SkinConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Services.Localize.LocalString" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Dialogs.Block" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Dialogs.CharFitData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
@@ -39,6 +41,7 @@
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Animation" preserve="all" />
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
