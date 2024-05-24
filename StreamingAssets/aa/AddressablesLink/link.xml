@@ -5,6 +5,7 @@
     <type fullname="Cats.CommonTools.AnimationWrapper" preserve="all" />
     <type fullname="Cats.Dialogs.DialogConfig" preserve="all" />
     <type fullname="Cats.Events.EventsContentHeaderConfig" preserve="all" />
+    <type fullname="Cats.Items.ItemsSpritesConfig" preserve="all" />
     <type fullname="Cats.Screens.Board.QuestIconsConfig" preserve="all" />
     <type fullname="Cats.World.LocationObject" preserve="all" />
     <type fullname="Cats.World.LocationView" preserve="all" />
