@@ -23,10 +23,11 @@
     <type fullname="Cats.Characters.LevelBlockConfig/ChatGroup" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.SkinConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Services.Localize.LocalString" preserve="nothing" serialized="true" />
-    <type fullname="Cats.Phrase" preserve="nothing" serialized="true" />
-    <type fullname="Cats.PhrasesBlock" preserve="nothing" serialized="true" />
     <type fullname="Cats.Dialogs.Block" preserve="nothing" serialized="true" />
     <type fullname="Cats.Dialogs.CharFitData" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Dialogs.Message" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Phrase" preserve="nothing" serialized="true" />
+    <type fullname="Cats.PhrasesBlock" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
