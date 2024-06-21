@@ -5,16 +5,17 @@
     <type fullname="Cats.CommonTools.AnimationWrapper" preserve="all" />
     <type fullname="Cats.Dialogs.DialogConfig" preserve="all" />
     <type fullname="Cats.Events.EventsContentHeaderConfig" preserve="all" />
+    <type fullname="Cats.Intro.IntroPlayer" preserve="all" />
     <type fullname="Cats.Items.ItemsSpritesConfig" preserve="all" />
     <type fullname="Cats.PhrasePlayer" preserve="all" />
     <type fullname="Cats.Screens.Board.QuestIconsConfig" preserve="all" />
-    <type fullname="Cats.Services.Intro" preserve="all" />
     <type fullname="Cats.Services.SkeletonStateContoller" preserve="all" />
     <type fullname="Cats.TransitionsHandler" preserve="all" />
     <type fullname="Cats.World.LocationObject" preserve="all" />
     <type fullname="Cats.World.LocationView" preserve="all" />
     <type fullname="Cats.World.StageView" preserve="all" />
     <type fullname="Cats.World.WorldCharacter" preserve="all" />
+    <type fullname="Cats.World.WorldCharClicks" preserve="all" />
     <type fullname="Cats.Characters.Biography" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.CardContentConfig" preserve="nothing" serialized="true" />
     <type fullname="Cats.Characters.ChatConfig" preserve="nothing" serialized="true" />
@@ -88,6 +89,9 @@
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
@@ -96,6 +100,7 @@
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.Image" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
