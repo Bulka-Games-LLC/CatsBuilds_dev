@@ -11,6 +11,7 @@
     <type fullname="Cats.Screens.Board.QuestIconsConfig" preserve="all" />
     <type fullname="Cats.Services.SkeletonStateContoller" preserve="all" />
     <type fullname="Cats.TransitionsHandler" preserve="all" />
+    <type fullname="Cats.World.EmilyWorldCharacter" preserve="all" />
     <type fullname="Cats.World.LocationObject" preserve="all" />
     <type fullname="Cats.World.LocationView" preserve="all" />
     <type fullname="Cats.World.StageView" preserve="all" />
