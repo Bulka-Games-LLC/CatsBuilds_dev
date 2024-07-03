@@ -1,5 +1,6 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cats.Audio.SoundContainer" preserve="all" />
     <type fullname="Cats.Characters.CharacterConfig" preserve="all" />
     <type fullname="Cats.Characters.CharactersConfigs" preserve="all" />
     <type fullname="Cats.CommonTools.AnimationWrapper" preserve="all" />
@@ -30,6 +31,11 @@
     <type fullname="Cats.Dialogs.Message" preserve="nothing" serialized="true" />
     <type fullname="Cats.Phrase" preserve="nothing" serialized="true" />
     <type fullname="Cats.PhrasesBlock" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Audio.PitchData" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Audio.SideEffectData" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Audio.Sound" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Audio.SoundInfo" preserve="nothing" serialized="true" />
+    <type fullname="Cats.Audio.VolumeData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.SkeletonAnimation" preserve="all" />
@@ -67,6 +73,9 @@
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
