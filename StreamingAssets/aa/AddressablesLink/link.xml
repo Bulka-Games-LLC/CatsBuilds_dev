@@ -4,6 +4,7 @@
     <type fullname="Cats.Characters.CharacterConfig" preserve="all" />
     <type fullname="Cats.Characters.CharactersConfigs" preserve="all" />
     <type fullname="Cats.CommonTools.AnimationWrapper" preserve="all" />
+    <type fullname="Cats.CommonTools.SkeletonAppearTool" preserve="all" />
     <type fullname="Cats.Dialogs.DialogConfig" preserve="all" />
     <type fullname="Cats.Events.EventsContentHeaderConfig" preserve="all" />
     <type fullname="Cats.Intro.IntroPlayer" preserve="all" />
